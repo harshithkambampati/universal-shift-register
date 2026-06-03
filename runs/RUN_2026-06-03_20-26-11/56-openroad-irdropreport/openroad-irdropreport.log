@@ -1,0 +1,34 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/hk/.ciel/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading OpenROAD database at '/home/hk/pd_projects/runs/RUN_2026-06-03_20-26-11/53-odb-cellfrequencytables/u_s_r.odb'…
+Reading design constraints file at '/home/hk/pd_projects/constraints.sdc'…
+[INFO] No information on clock propagation in input SDC file-- propagating all clocks.
+[INFO] Using voltage extracted from lib (1.8000000000V) for power nets and 0V for ground nets…
+%OL_CREATE_REPORT irdrop.rpt
++ analyze_power_grid -net VPWR -voltage_file /home/hk/pd_projects/runs/RUN_2026-06-03_20-26-11/56-openroad-irdropreport/net-VPWR.csv
+[INFO PSM-0040] All shapes on net VPWR are connected.
+########## IR report #################
+Net              : VPWR
+Corner           : nom_tt_025C_1v80
+Total power      : 9.44e-05 W
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.80e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 2.63e-05 V
+Worstcase IR drop: 7.77e-05 V
+Percentage drop  : 0.00 %
+######################################
++ analyze_power_grid -net VGND -voltage_file /home/hk/pd_projects/runs/RUN_2026-06-03_20-26-11/56-openroad-irdropreport/net-VGND.csv
+[INFO PSM-0040] All shapes on net VGND are connected.
+########## IR report #################
+Net              : VGND
+Corner           : nom_tt_025C_1v80
+Total power      : 9.44e-05 W
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 6.54e-05 V
+Average voltage  : 2.07e-05 V
+Average IR drop  : 2.07e-05 V
+Worstcase IR drop: 6.54e-05 V
+Percentage drop  : 0.00 %
+######################################
+%OL_END_REPORT

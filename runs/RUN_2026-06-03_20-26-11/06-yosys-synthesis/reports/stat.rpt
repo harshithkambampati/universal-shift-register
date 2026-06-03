@@ -1,0 +1,30 @@
+114. Printing statistics.
+
+=== u_s_r ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       26        - wires
+       33        - wire bits
+        6        - public wires
+       13        - public wire bits
+        6        - ports
+       13        - port bits
+       24  261.501 cells
+        1   12.512   sky130_fd_sc_hd__a2111o_2
+        2   20.019   sky130_fd_sc_hd__a211o_2
+        4   30.029   sky130_fd_sc_hd__and3_2
+        3   30.029   sky130_fd_sc_hd__and3b_2
+        4   85.082   sky130_fd_sc_hd__dfxtp_2
+        2    7.507   sky130_fd_sc_hd__inv_2
+        1    8.758   sky130_fd_sc_hd__nand2b_2
+        1    6.256   sky130_fd_sc_hd__nor2_2
+        1    10.01   sky130_fd_sc_hd__o211a_2
+        3   33.782   sky130_fd_sc_hd__o221a_2
+        1   11.261   sky130_fd_sc_hd__o2bb2a_2
+        1    6.256   sky130_fd_sc_hd__or2_2
+
+   Chip area for module '\u_s_r': 261.500800
+     of which used for sequential elements: 85.081600 (32.54%)
+

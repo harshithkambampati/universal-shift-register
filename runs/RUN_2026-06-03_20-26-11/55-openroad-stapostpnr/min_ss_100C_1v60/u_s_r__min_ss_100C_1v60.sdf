@@ -1,0 +1,611 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "u_s_r")
+ (DATE "Wed Jun  3 20:26:51 2026")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.7.0")
+ (DIVIDER .)
+ (VOLTAGE 1.600::1.600)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 100.000::100.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "u_s_r")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT S_in input5.A (0.022:0.022:0.022) (0.012:0.012:0.012))
+    (INTERCONNECT clk clkbuf_0_clk.A (0.054:0.054:0.054) (0.030:0.030:0.030))
+    (INTERCONNECT rst input8.A (0.018:0.018:0.018) (0.010:0.010:0.010))
+    (INTERCONNECT D[3] input4.A (0.018:0.018:0.018) (0.010:0.010:0.010))
+    (INTERCONNECT D[2] input3.A (0.025:0.025:0.025) (0.014:0.014:0.014))
+    (INTERCONNECT D[1] input2.A (0.019:0.019:0.019) (0.011:0.011:0.011))
+    (INTERCONNECT D[0] input1.A (0.026:0.026:0.026) (0.015:0.015:0.015))
+    (INTERCONNECT mode[1] input7.A (0.023:0.023:0.023) (0.013:0.013:0.013))
+    (INTERCONNECT mode[0] input6.A (0.021:0.021:0.021) (0.012:0.012:0.012))
+    (INTERCONNECT _20_.Y _26_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _20_.Y _30_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _20_.Y _34_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _20_.Y _38_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _21_.Y _27_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _21_.Y _31_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _21_.Y _35_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _21_.Y _39_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _22_.X _26_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _23_.X _27_.B2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _24_.Y _26_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _24_.Y _34_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _24_.Y _38_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _25_.X _27_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _25_.X _31_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _25_.X _35_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _25_.X _39_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _26_.X _27_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _27_.X hold16.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _28_.X _31_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _29_.Y _30_.A2_N (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _30_.X _31_.B2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _31_.X hold18.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _32_.X _34_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _33_.X _34_.D1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _34_.X _35_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _35_.X _42_.D (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _36_.X _38_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _37_.X _39_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _38_.X _39_.B2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _39_.X hold14.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _40_.Q hold15.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _40_.Q output9.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _41_.Q _26_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _41_.Q hold17.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _41_.Q output10.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _42_.Q _29_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _42_.Q _37_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _42_.Q hold19.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _42_.Q output11.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _43_.Q hold13.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT _43_.Q output12.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_0_clk.X clkbuf_1_0__f_clk.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_0_clk.X clkbuf_1_1__f_clk.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_1_0__f_clk.X _40_.CLK (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_1_0__f_clk.X _43_.CLK (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_1_1__f_clk.X _41_.CLK (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT clkbuf_1_1__f_clk.X _42_.CLK (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold13.X _34_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold13.X _39_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold14.X _43_.D (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold15.X _27_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold15.X _30_.B2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold16.X _40_.D (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold17.X _31_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold17.X _33_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold18.X _41_.D (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT hold19.X _35_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input1.X _22_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input2.X _28_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input3.X _32_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input4.X _36_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input5.X _23_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input5.X _38_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _22_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _23_.A_N (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _24_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _25_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _28_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _30_.A1_N (0.001:0.001:0.001) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _32_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _33_.A_N (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _36_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input6.X _37_.A_N (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _20_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _22_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _23_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _24_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _25_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _28_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _29_.A_N (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _32_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _33_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _36_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input7.X _37_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT input8.X _21_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT output10.X Q[1] (0.000:0.000:0.000))
+    (INTERCONNECT output11.X Q[2] (0.000:0.000:0.000))
+    (INTERCONNECT output12.X Q[3] (0.000:0.000:0.000))
+    (INTERCONNECT output9.X Q[0] (0.000:0.000:0.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_2")
+  (INSTANCE _20_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.270:0.270:0.270) (0.248:0.248:0.248))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_2")
+  (INSTANCE _21_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.142:0.142:0.142) (0.109:0.109:0.109))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3_2")
+  (INSTANCE _22_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.496:0.496:0.496) (0.514:0.514:0.514))
+    (IOPATH B X (0.519:0.519:0.519) (0.583:0.583:0.583))
+    (IOPATH C X (0.377:0.377:0.377) (0.445:0.445:0.445))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3b_2")
+  (INSTANCE _23_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A_N X (0.597:0.597:0.597) (0.551:0.551:0.551))
+    (IOPATH B X (0.514:0.514:0.514) (0.578:0.578:0.578))
+    (IOPATH C X (0.388:0.388:0.388) (0.450:0.450:0.450))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nor2_2")
+  (INSTANCE _24_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.387:0.387:0.387) (0.231:0.231:0.231))
+    (IOPATH B Y (0.371:0.371:0.371) (0.229:0.229:0.229))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__or2_2")
+  (INSTANCE _25_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.401:0.401:0.401) (0.865:0.865:0.865))
+    (IOPATH B X (0.426:0.426:0.426) (0.845:0.845:0.845))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__a211o_2")
+  (INSTANCE _26_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.251:0.251:0.251) (0.552:0.552:0.552))
+    (IOPATH A2 X (0.283:0.283:0.283) (0.635:0.635:0.635))
+    (IOPATH B1 X (0.174:0.174:0.174) (0.567:0.568:0.570))
+    (IOPATH C1 X (0.239:0.244:0.248) (0.517:0.519:0.522))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__o221a_2")
+  (INSTANCE _27_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.427:0.427:0.427) (0.537:0.537:0.537))
+    (IOPATH A2 X (0.401:0.401:0.401) (0.510:0.510:0.511))
+    (IOPATH B1 X (0.368:0.370:0.372) (0.453:0.454:0.454))
+    (IOPATH B2 X (0.369:0.369:0.369) (0.419:0.420:0.421))
+    (IOPATH C1 X (0.367:0.367:0.367) (0.213:0.213:0.213))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3_2")
+  (INSTANCE _28_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.482:0.482:0.482) (0.505:0.505:0.505))
+    (IOPATH B X (0.505:0.505:0.505) (0.573:0.573:0.573))
+    (IOPATH C X (0.359:0.359:0.359) (0.431:0.431:0.431))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2b_2")
+  (INSTANCE _29_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A_N Y (0.365:0.365:0.365) (0.508:0.508:0.508))
+    (IOPATH B Y (0.091:0.091:0.091) (0.110:0.110:0.110))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__o2bb2a_2")
+  (INSTANCE _30_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1_N X (0.604:0.604:0.604) (0.540:0.540:0.540))
+    (IOPATH A2_N X (0.437:0.442:0.448) (0.404:0.405:0.406))
+    (IOPATH B1 X (0.361:0.361:0.361) (0.545:0.545:0.545))
+    (IOPATH B2 X (0.323:0.323:0.323) (0.525:0.525:0.525))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__o221a_2")
+  (INSTANCE _31_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.440:0.440:0.440) (0.549:0.549:0.549))
+    (IOPATH A2 X (0.411:0.411:0.412) (0.521:0.521:0.521))
+    (IOPATH B1 X (0.394:0.394:0.394) (0.457:0.459:0.460))
+    (IOPATH B2 X (0.371:0.372:0.372) (0.424:0.428:0.432))
+    (IOPATH C1 X (0.377:0.377:0.377) (0.220:0.220:0.220))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3_2")
+  (INSTANCE _32_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.494:0.494:0.494) (0.512:0.512:0.512))
+    (IOPATH B X (0.516:0.516:0.516) (0.581:0.581:0.581))
+    (IOPATH C X (0.374:0.374:0.374) (0.442:0.442:0.442))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3b_2")
+  (INSTANCE _33_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A_N X (0.587:0.587:0.587) (0.543:0.543:0.543))
+    (IOPATH B X (0.505:0.505:0.505) (0.569:0.569:0.569))
+    (IOPATH C X (0.395:0.395:0.395) (0.467:0.467:0.467))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__a2111o_2")
+  (INSTANCE _34_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.314:0.314:0.314) (0.872:0.872:0.872))
+    (IOPATH A2 X (0.331:0.331:0.331) (0.944:0.944:0.944))
+    (IOPATH B1 X (0.279:0.284:0.288) (0.895:0.897:0.900))
+    (IOPATH C1 X (0.199:0.200:0.200) (0.810:0.811:0.811))
+    (IOPATH D1 X (0.183:0.184:0.184) (0.708:0.709:0.709))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__o211a_2")
+  (INSTANCE _35_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.384:0.384:0.384) (0.492:0.492:0.492))
+    (IOPATH A2 X (0.369:0.369:0.370) (0.481:0.481:0.481))
+    (IOPATH B1 X (0.360:0.363:0.366) (0.264:0.266:0.267))
+    (IOPATH C1 X (0.359:0.359:0.359) (0.208:0.208:0.208))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3_2")
+  (INSTANCE _36_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.487:0.487:0.487) (0.507:0.507:0.507))
+    (IOPATH B X (0.510:0.510:0.510) (0.575:0.575:0.575))
+    (IOPATH C X (0.371:0.371:0.371) (0.441:0.441:0.441))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__and3b_2")
+  (INSTANCE _37_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A_N X (0.595:0.595:0.595) (0.551:0.551:0.551))
+    (IOPATH B X (0.513:0.513:0.513) (0.577:0.577:0.577))
+    (IOPATH C X (0.389:0.389:0.389) (0.437:0.437:0.437))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__a211o_2")
+  (INSTANCE _38_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.295:0.295:0.295) (0.604:0.604:0.604))
+    (IOPATH A2 X (0.277:0.277:0.277) (0.640:0.640:0.640))
+    (IOPATH B1 X (0.260:0.264:0.268) (0.607:0.610:0.612))
+    (IOPATH C1 X (0.182:0.182:0.182) (0.523:0.524:0.525))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__o221a_2")
+  (INSTANCE _39_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A1 X (0.433:0.433:0.433) (0.543:0.543:0.543))
+    (IOPATH A2 X (0.409:0.409:0.409) (0.518:0.518:0.518))
+    (IOPATH B1 X (0.392:0.393:0.393) (0.456:0.457:0.459))
+    (IOPATH B2 X (0.365:0.367:0.370) (0.435:0.435:0.436))
+    (IOPATH C1 X (0.375:0.375:0.375) (0.218:0.218:0.218))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dfxtp_2")
+  (INSTANCE _40_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH CLK Q (0.655:0.655:0.655) (0.606:0.606:0.606))
+   )
+  )
+  (TIMINGCHECK
+    (HOLD (posedge D) (posedge CLK) (-0.079:-0.079:-0.079))
+    (HOLD (negedge D) (posedge CLK) (-0.108:-0.108:-0.108))
+    (SETUP (posedge D) (posedge CLK) (0.149:0.149:0.149))
+    (SETUP (negedge D) (posedge CLK) (0.294:0.294:0.294))
+    (WIDTH (posedge CLK) (0.452:0.452:0.452))
+    (WIDTH (negedge CLK) (0.510:0.510:0.510))
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dfxtp_2")
+  (INSTANCE _41_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH CLK Q (0.677:0.677:0.677) (0.620:0.620:0.620))
+   )
+  )
+  (TIMINGCHECK
+    (HOLD (posedge D) (posedge CLK) (-0.078:-0.078:-0.078))
+    (HOLD (negedge D) (posedge CLK) (-0.106:-0.106:-0.106))
+    (SETUP (posedge D) (posedge CLK) (0.148:0.148:0.148))
+    (SETUP (negedge D) (posedge CLK) (0.293:0.293:0.292))
+    (WIDTH (posedge CLK) (0.452:0.452:0.452))
+    (WIDTH (negedge CLK) (0.509:0.509:0.509))
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dfxtp_2")
+  (INSTANCE _42_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH CLK Q (0.685:0.685:0.685) (0.624:0.624:0.624))
+   )
+  )
+  (TIMINGCHECK
+    (HOLD (posedge D) (posedge CLK) (-0.077:-0.077:-0.078))
+    (HOLD (negedge D) (posedge CLK) (-0.086:-0.091:-0.096))
+    (SETUP (posedge D) (posedge CLK) (0.147:0.147:0.147))
+    (SETUP (negedge D) (posedge CLK) (0.270:0.275:0.281))
+    (WIDTH (posedge CLK) (0.452:0.452:0.452))
+    (WIDTH (negedge CLK) (0.509:0.509:0.509))
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dfxtp_2")
+  (INSTANCE _43_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH CLK Q (0.643:0.643:0.643) (0.597:0.597:0.597))
+   )
+  )
+  (TIMINGCHECK
+    (HOLD (posedge D) (posedge CLK) (-0.078:-0.078:-0.078))
+    (HOLD (negedge D) (posedge CLK) (-0.106:-0.106:-0.106))
+    (SETUP (posedge D) (posedge CLK) (0.148:0.148:0.148))
+    (SETUP (negedge D) (posedge CLK) (0.293:0.293:0.292))
+    (WIDTH (posedge CLK) (0.452:0.452:0.452))
+    (WIDTH (negedge CLK) (0.510:0.510:0.510))
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_16")
+  (INSTANCE clkbuf_0_clk)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.226:0.226:0.226) (0.242:0.242:0.242))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_16")
+  (INSTANCE clkbuf_1_0__f_clk)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.197:0.197:0.197) (0.230:0.230:0.230))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_16")
+  (INSTANCE clkbuf_1_1__f_clk)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.196:0.196:0.196) (0.229:0.229:0.229))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold13)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.098:1.098:1.098) (1.168:1.168:1.168))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold14)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.028:1.028:1.029) (1.098:1.104:1.111))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold15)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.107:1.107:1.107) (1.174:1.174:1.174))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold16)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.032:1.032:1.032) (1.103:1.109:1.115))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold17)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.124:1.124:1.124) (1.188:1.188:1.188))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold18)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.029:1.029:1.029) (1.098:1.104:1.110))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlygate4sd3_1")
+  (INSTANCE hold19)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.062:1.062:1.062) (1.124:1.124:1.124))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.454:0.454:0.454) (0.438:0.438:0.438))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.442:0.442:0.442) (0.427:0.427:0.427))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input3)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.452:0.452:0.452) (0.436:0.436:0.436))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input4)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.458:0.458:0.458) (0.444:0.444:0.444))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input5)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.477:0.477:0.477) (0.459:0.459:0.459))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input6)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.722:0.722:0.722) (0.673:0.673:0.673))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input7)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.768:0.768:0.768) (0.707:0.707:0.707))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE input8)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.475:0.475:0.475) (0.459:0.459:0.459))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE output10)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.588:0.588:0.588) (0.560:0.560:0.560))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE output11)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.581:0.581:0.581) (0.551:0.551:0.551))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE output12)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.563:0.563:0.563) (0.544:0.544:0.544))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkdlybuf4s25_1")
+  (INSTANCE output9)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.561:0.561:0.561) (0.539:0.539:0.539))
+   )
+  )
+ )
+)

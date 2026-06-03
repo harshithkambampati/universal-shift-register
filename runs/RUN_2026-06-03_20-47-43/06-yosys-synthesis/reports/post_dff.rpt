@@ -1,0 +1,32 @@
+106. Printing statistics.
+
+=== u_s_r ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       31        - wires
+       41        - wire bits
+        6        - public wires
+       13        - public wire bits
+        6        - ports
+       13        - port bits
+       32   85.082 cells
+        8        -   $_ANDNOT_
+        1        -   $_AND_
+       12        -   $_MUX_
+        1        -   $_NAND_
+        1        -   $_ORNOT_
+        5        -   $_OR_
+        4   85.082   sky130_fd_sc_hd__dfxtp_2
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\u_s_r': 85.081600
+     of which used for sequential elements: 85.081600 (100.00%)
+
